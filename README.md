@@ -1,3 +1,19 @@
+# Dictionary App
+This is a simple web application to look up word definitions.
+
+## Features
+- Search for any English word
+- See the meaning and examples
+- Listen to pronunciation when available
+- It uses the provided api-https://api.dictionaryapi.dev/api/v2/entries/en/word
+
+## Technologies Used
+- React.js
+- CSS
+- Dictionary API
+
+
+The below thing is auto-generated...
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
