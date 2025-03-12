@@ -1,0 +1,119 @@
+/* Basic styling for Dictionary App */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.loading {
+  text-align: center;
+  color: #666;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.result {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.result h2 {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.phonetic {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.phonetic p {
+  margin-right: 10px;
+  color: #666;
+}
+
+.phonetic button {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.meaning {
+  margin-bottom: 20px;
+}
+
+.meaning h3 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.def {
+  margin-bottom: 10px;
+}
+
+.example {
+  color: #666;
+  font-style: italic;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
